@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registratieformulier</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="contact-title">
+        <h1>Makkelijk je afspraak inplannen</h1>
+        <h2> Je doet het online of via de app!</h2>
+    <div class="contact-form">
+        <form id="contact-form">
+            <input name= "Naam + voornaam" type="text" class="form-control" placeholder="Naam + achternaam" required><br>
+
+            <input name= "E-mail" type="text" class="form-control" placeholder="Voer E-mail adres in" required><br>
+
+            <input name= "tel. nummer" type="text" class="form-control" placeholder="Voer hier telefoonnummer in" value="+31 " class="unselectable" required><br>  
+
+            <input name= "Opmerkingen" class="form-control" placeholder="Plaats hier eventuele commentaar" rows="4"></textarea><br>
+            
+            <label for="meeting-time">Kies hier uw datum:</label>
+            <input type="datetime-local" id="meeting-time"
+            name="meeting-time" value="2020-01-20"
+            min="2018-06-07T00:00" max="2050-06-14T00:00">
+
+            <input type="button" class="button" onclick="maak_afspraak(); return false;">
+
+
+        </form>
+    </div>
+</body>
+</html>

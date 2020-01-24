@@ -1,0 +1,106 @@
+body{
+    margin: 35px;
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(0, 75, 255, 0.15);
+    background-image:url(pic1.jpg);
+    background-blend-mode: soft-light;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/*grote van de invoerkolommen*/
+div{
+    height: 75px;
+    ;
+}
+
+/*Titel grootte*/
+h1{
+    padding: 2;
+    margin: 1;
+    color: white;
+    
+
+}
+
+/*slogan*/
+h2{
+    padding: 2;
+    margin: 1;
+    color: white;
+}
+
+
+
+/*kleur van streepje onder header*/
+hr{
+    background-color: white;
+    height: 0.01px;
+    width: 820px;
+    margin: 50px, 0px;
+    border-radius: 22px;
+    border-color: rgba(100, 100, 100, 0.95)
+
+}
+
+/*Columns UI*/
+form{
+    margin-top: 15px;
+    transition: all 1s ease-in-out;
+    background-color: white;
+    margin: 45px 450px 45px 450px;
+    border-radius: 29px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+
+.form-control{
+    width: 500px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid blue;
+    margin-bottom: 16px;
+    color: black;
+    font-size: 20px;
+}
+
+.button{
+    height: 125px;
+    width: 520px;
+    font-size: 50px;
+    font-weight: bold;
+    border-radius: 29px;
+    border: none;
+    border-radius: 29px;
+    background-color: rgba(255, 255, 255, 0.85);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.button:hover{
+    background-color: rgba(200, 200, 200, 0.85);
+    transition: all 0.2s ease-in-out;
+}
+
+
+a{
+    color: black;
+    font-size: 58px;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    color: black;
+}
+
+input,
+.type {
+    margin: .4rem 0;
+    color: grey;
+}
